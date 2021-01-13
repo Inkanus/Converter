@@ -1,0 +1,41 @@
+body {
+  font-family: 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+  margin-top: 20%;
+  text-align: center;
+  background-color: #fafafa;
+}
+.text-input {
+  font-family: inherit;
+  padding: 10px;
+  background-color: white;
+  width: 5%;
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius: 5px;
+  border: 0;
+  text-align: center;
+  height: 20px;
+  font-size: medium;
+}
+.button {
+  font-family: inherit;
+  appearance:none;
+  -webkit-appearance:none;
+  background-color: white;
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+  padding: 10px;
+  border: 0;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: medium;
+  width: 10%;
+}
+.dropdown {
+  font-family: inherit;
+  background-color: white;
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius: 5px;
+  border: 0;
+  text-align: center;
+  height: 40px;
+  font-size: medium;
+}
