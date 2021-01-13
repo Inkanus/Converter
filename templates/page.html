@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Currency Calculator</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='page.css') }} ">
+  </head>
+  <body>
+      <h1>Convert to PLN</h1>
+      <form action="/convert">
+        <select name="currency" class="dropdown">
+          {% for currency in currencies %}
+            <option>{{ currency }}</option>
+          {% endfor %}
+        </select>
+        <input type="text" name="value" placeholder="1.00" class="text-input">
+        <input type="submit", value="Convert" class="button">
+      </form>
+  </body>
+</html>
