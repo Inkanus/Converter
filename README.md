@@ -1,4 +1,4 @@
-#Kalkulator walut
+# Kalkulator walut
 
 Upewnij się, albo zainstaluj za pomocą pip dodatek "requests"
 
